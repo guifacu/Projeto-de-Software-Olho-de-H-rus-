@@ -1,4 +1,4 @@
-# 📍 Sistema de Vigilância (<span style="color:red"><strong>Olho de Hórus</strong></span> 👁️)
+# 📍 Sistema de Vigilância ( ***Olho de Hórus*** 👁️)
 
 Olho de Hórus é uma plataforma interativa onde cidadãos podem registrar denúncias de crimes de forma anônima e visualizar, em um mapa, as áreas com maior incidência de criminalidade. O sistema exibe dados em tempo real e também permite análises por período, tipo de crime e localização. Com um foco na colaboração e na prevenção, o projeto visa promover mais segurança e consciência nas comunidades urbanas.
 
