@@ -1,22 +1,22 @@
-# 📍 Sistema de Vigilância Comunitária
+# 📍 Sistema de Vigilância (<span style="color:red"><strong>Olho de Hórus</strong></span> 👁️)
 
-Plataforma colaborativa para mapeamento de crimes urbanos com base em denúncias públicas. O sistema visa aumentar a segurança por meio da informação, permitindo que cidadãos visualizem e contribuam com dados sobre a criminalidade em tempo real e de forma histórica.
-
----
-
-## ❗ Declaração do Problema
-
-As populações urbanas frequentemente enfrentam a insegurança causada pela ausência de informações públicas claras e atualizadas sobre a criminalidade em seus bairros. Denúncias são registradas de forma isolada e descentralizada, o que dificulta a visualização de padrões e o planejamento preventivo por parte da comunidade.
+Olho de Hórus é uma plataforma interativa onde cidadãos podem registrar denúncias de crimes de forma anônima e visualizar, em um mapa, as áreas com maior incidência de criminalidade. O sistema exibe dados em tempo real e também permite análises por período, tipo de crime e localização. Com um foco na colaboração e na prevenção, o projeto visa promover mais segurança e consciência nas comunidades urbanas.
 
 ---
 
-## ✅ Declaração da Solução
+## Declaração do Problema
 
-O sistema propõe uma plataforma interativa de vigilância comunitária onde qualquer pessoa pode registrar denúncias anônimas de crimes, visualizá-las em um mapa em tempo real e acompanhar estatísticas por bairro e período. O mapa destaca regiões com alta incidência criminal, auxiliando moradores, pesquisadores e autoridades na tomada de decisões baseadas em dados.
+A população enfrenta dificuldades em relatar e acompanhar ocorrências criminais de forma prática, segura e acessível. As informações sobre crimes muitas vezes não são centralizadas, atualizadas em tempo real ou visualmente compreensíveis, o que dificulta a conscientização e a prevenção por parte dos cidadãos e autoridades. Além disso, a falta de anonimato em alguns canais de denúncia inibe a participação da comunidade.
 
 ---
 
-## 🎯 Objetivos do Sistema
+## Declaração da Solução
+
+Desenvolver um sistema de vigilância participativa com uma interface baseada em mapa interativo, onde os usuários podem denunciar crimes de forma anônima ou identificada, informando o tipo, local e horário da ocorrência. O sistema exibirá essas denúncias em tempo real em um mapa digital, com destaque visual para as áreas com maior concentração de crimes, regiões mais perigosas serão sinalizadas com zonas coloridas, especialmente em tons de vermelho, indicando maior risco. Também será possível visualizar estatísticas por período e análises consolidadas com base em todo o histórico de dados registrados.
+
+---
+
+## Objetivos do Sistema
 
 - Reunir e exibir denúncias de crimes feitas pela comunidade.
 - Exibir as regiões mais perigosas em um mapa com atualização constante.
@@ -26,7 +26,7 @@ O sistema propõe uma plataforma interativa de vigilância comunitária onde qua
 
 ---
 
-## 🧠 Público-Alvo
+## Público-Alvo
 
 - Moradores de áreas urbanas
 - Estudantes, pesquisadores e ONGs que estudam segurança pública
@@ -35,7 +35,49 @@ O sistema propõe uma plataforma interativa de vigilância comunitária onde qua
 
 ---
 
-## ⚙️ Requisitos Funcionais (Histórias de Usuário)
+## Requisitos Não Funcionais 
+
+> Formato: **Como [tipo de usuário], eu quero [objetivo] para que [benefício].**
+
+---
+
+### 1. Segurança e anonimato
+
+Garantir confidencialidade e opção de denúncia anônima com proteção de dados.
+
+---
+
+### 2. Desempenho
+
+O mapa deve atualizar os dados em tempo real ou com mínimo de latência.
+
+---
+
+### 3. Escalabilidade
+
+Suportar um grande volume de denúncias e usuários simultâneos.
+
+---
+
+### 4. Usabilidade
+
+Interface intuitiva, acessível em dispositivos móveis e desktops.
+
+---
+
+### 5. Disponibilidade
+
+Sistema disponível 24 horas por dia com tolerância a falhas e backup regular.
+
+---
+
+### 6. Compatibilidade
+
+Funcionar nos principais navegadores e dispositivos modernos.
+
+---
+
+## Requisitos Funcionais (Histórias de Usuário)
 
 > Formato: **Como [tipo de usuário], eu quero [objetivo] para que [benefício].**
 
@@ -135,56 +177,7 @@ O sistema propõe uma plataforma interativa de vigilância comunitária onde qua
 **quero** acessar o sistema com uma interface adaptada ao meu dispositivo,  
 **para que** eu possa utilizar todos os recursos com facilidade onde estiver.
 
----
 
-## 🚫 Requisitos Não Funcionais
 
-- A plataforma deve ser responsiva e funcionar em dispositivos móveis e desktops.
-- As denúncias devem ser armazenadas em banco de dados seguro com backup automático.
-- O sistema deve garantir o anonimato do usuário, mesmo sem autenticação.
-- O tempo de resposta do sistema deve ser inferior a 2 segundos para qualquer consulta.
-- A interface deve ser acessível (seguir critérios WCAG para contraste, navegação etc.).
-- A infraestrutura deve suportar atualizações em tempo real (websockets ou polling).
-- O sistema deve ser escalável para suportar grande volume de denúncias e acessos simultâneos.
-
----
-
-## 📊 Tecnologias Sugeridas (exemplo)
-
-- **Frontend:** React ou Vue.js com Leaflet.js (para mapas)
-- **Backend:** Node.js + Express / NestJS
-- **Banco de Dados:** PostgreSQL ou MongoDB
-- **Hospedagem:** Vercel / Render / Railway
-- **Segurança:** Autenticação JWT + anonimato opcional
-
----
-
-## 📌 Roadmap (exemplo)
-
-1. Criação de MVP com mapa e denúncias básicas
-2. Implementação de estatísticas filtráveis
-3. Integração com painel de moderação
-4. Suporte a notificações e atualizações em tempo real
-5. Deploy e divulgação comunitária
-
----
-
-## 📬 Contribuições
-
-Contribuições são bem-vindas!  
-Para contribuir:
-
-1. Faça um fork do repositório
-2. Crie uma branch com sua feature
-3. Faça commits descritivos
-4. Envie um Pull Request com sua proposta
-
----
-
-## 📎 Licença
-
-Este projeto está licenciado sob a [MIT License](./LICENSE).
-
----
 
 
