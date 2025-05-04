@@ -73,7 +73,7 @@ Funcionar nos principais navegadores e dispositivos modernos.
 
 ---
 
-## Requisitos Funcionais (Histórias de Usuário)
+## Requisitos Funcionais (User story)
 
 ### 1. Cadastro e Acesso
 
