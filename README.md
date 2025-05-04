@@ -75,10 +75,6 @@ Funcionar nos principais navegadores e dispositivos modernos.
 
 ## Requisitos Funcionais (Histórias de Usuário)
 
-> Formato: **Como [tipo de usuário], eu quero [objetivo] para que [benefício].**
-
----
-
 ### 1. Cadastro e Acesso
 
 **Como** cidadão preocupado com a segurança,  
