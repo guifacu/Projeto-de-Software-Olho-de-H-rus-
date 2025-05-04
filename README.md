@@ -37,10 +37,6 @@ Desenvolver um sistema de vigilância participativa com uma interface baseada em
 
 ## Requisitos Não Funcionais 
 
-> Formato: **Como [tipo de usuário], eu quero [objetivo] para que [benefício].**
-
----
-
 ### 1. Segurança e anonimato
 
 Garantir confidencialidade e opção de denúncia anônima com proteção de dados.
