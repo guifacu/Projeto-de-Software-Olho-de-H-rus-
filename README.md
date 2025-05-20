@@ -169,6 +169,17 @@ Funcionar nos principais navegadores e dispositivos modernos.
 **quero** acessar o sistema com uma interface adaptada ao meu dispositivo,  
 **para que** eu possa utilizar todos os recursos com facilidade onde estiver.
 
+---
+
+### Diagrama de Negócio
+
+![Diagrama de Negócio](assets/Diagrama-de-Negócio.png)
+
+---
+
+### Diagrama de Atividade
+
+![Diagrama de Atividade](assets/Diagrama-de-Atividade.png)
 
 
 
