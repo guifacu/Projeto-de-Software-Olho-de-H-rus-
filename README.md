@@ -173,13 +173,13 @@ Funcionar nos principais navegadores e dispositivos modernos.
 
 ### Diagrama de Negócio
 
-![Diagrama de Negócio](.c/Diagrama-de-Negócio.png)
+![Diagrama de Negócio](Diagrama-de-Negócio.png)
 
 ---
 
 ### Diagrama de Atividade
 
-![Diagrama de Atividade](.c/Diagrama-de-Atividade.png)
+![Diagrama de Atividade](Diagrama-de-Atividade.png)
 
 
 
